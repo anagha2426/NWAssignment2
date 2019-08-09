@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="1"
+            tests="4">
+
+  <testsuite name="different-test"
+    errors="1" failures="1" hostname="" id="" package="different-test" skipped="3"
+    tests="4" time="65.26" timestamp="">
+  
+    <testcase name="Does not show the task list if there are no tasks" classname="different-test" time="28.65" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Does not show the footer if there are no tasks" classname="different-test" time="11.12" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="On page load, it sets focus on the input field" classname="different-test" time="13.80" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="When I add a task, it shows todo items" classname="different-test" time="11.69" assertions="2">
+
+      <failure message="Testing if element &lt;.todo-list li:first-child label&gt; contains text: &#34;New task&#34;. Element could not be located in 1000 ms. - expected [0;32m&#34;New task&#34;[0m but got: [0;31m&#34;null&#34;[0m">    at Object.When I add a task, it shows todo items (D:\Anagha\Nightwatch\assignments\Assignment1\tests\different-test.js:29:17)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+
+    <failure message="    at Object.When I add a task, it shows todo items (D:\Anagha\Nightwatch\assignments\Assignment1\tests\different-test.js:29:17)">    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+    </testcase>
+  
+
+  
+
+  
+    
+    <testcase
+      name="Marks a todo item as completed by striking through it" classname="different-test">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Shows how many items there are left" classname="different-test">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Does not add empty or blank tasks" classname="different-test">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

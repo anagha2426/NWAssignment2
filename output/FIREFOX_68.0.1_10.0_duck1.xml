@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="1"
+            tests="1">
+
+  <testsuite name="duck1"
+    errors="1" failures="1" hostname="" id="" package="duck1" skipped="0"
+    tests="1" time="17.04" timestamp="">
+  
+    <testcase name="Demo test DuckDuckGo search" classname="duck1" time="17.04" assertions="4">
+
+    
+
+    
+
+      <failure message="Testing if element &lt;#web_content_wrapper&gt; contains text: &#34;Nightwatch.js&#34;. Element could not be located in 1000 ms. - expected [0;32m&#34;Nightwatch.js&#34;[0m but got: [0;31m&#34;null&#34;[0m">    at Object.Demo test DuckDuckGo search (D:\Anagha\Nightwatch\assignments\Assignment1\tests\duck1.js:14:17)
+    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+
+    <failure message="    at Object.Demo test DuckDuckGo search (D:\Anagha\Nightwatch\assignments\Assignment1\tests\duck1.js:14:17)">    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
